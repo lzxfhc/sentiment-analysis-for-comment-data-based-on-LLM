@@ -1,6 +1,14 @@
 # sentiment-analysis-for-comment-data-based-on-LLM
 Scraped forum comment data, and use LLM to analysis it, and creat a structured data base to support business
 
+Crawling user comments from platforms such as miHoYo, hoyolab, Reddit, etc., we utilized LLM for a series of analyses to meet the data requirements of the product and development team.
+
+sentiment analysis.ipynb is the analysis program along with the demo results.
+
+.py files consist of crawlers for various platforms, categorized into two types: post-based crawlers and crawlers for retrieving all posts on miHoYo Forum. When crawling all posts, please ensure to set the crawl sleep time to prevent IP-related restrictions.
+
+.json files contain the demo of user comments that were crawled.
+
 爬取米游社，hoyolab，reddit等平台的用户评论，利用了LLM，对其进行的一系列分析，支持产研团队的数据需求
 
 sentiment analysis.ipynb是分析程序以及demo结果
