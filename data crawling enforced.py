@@ -66,11 +66,11 @@ def parse_user_posts(html):
 
     return user_posts
 
-# ///////////////////////type max_threads number to specify how many posts you want to crawl.///////////////
+# ///////////////////////entry max_threads number to specify how many posts you want to crawl.///////////////
 
 def main():
     board_url = 'https://www.miyoushe.com/ys/'
-    max_threads = 3
+    max_threads = 999
     thread_links = get_thread_links(board_url, max_threads)
 
     all_user_posts = []
