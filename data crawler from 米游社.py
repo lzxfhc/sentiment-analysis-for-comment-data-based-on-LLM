@@ -47,7 +47,7 @@ def parse_user_posts(html):
 
     return user_posts
 
-# ////////////////////////type url of the webpage for data scraping/////////////////////
+# ////////////////////////entry url of the webpage for data scraping/////////////////////
 
 def main():
     url = 'https://www.miyoushe.com/ys/article/37459160'
